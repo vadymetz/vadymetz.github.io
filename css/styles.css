@@ -1,0 +1,94 @@
+body {
+	height: 0vh;
+	background-color: #fdfffc
+}
+p {
+    text-align: center;
+    color: #171111;
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 12pt;
+    padding: 50px;
+}
+
+p1 {
+    text-align: center;
+    color: blue;
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 25pt;
+    padding: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 75pt;
+}
+h2 {
+    text-align: center;
+    color: black;
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 25pt;
+}
+h3 {
+    text-align: center;
+    color: black;
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 12pt;
+}
+h4 {
+    text-align: center;
+    color: #f79f06;
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 45pt;
+}
+h5 {
+    text-align: center;
+    color: green;
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 16pt;
+}
+
+header {
+	position: relative;
+	margin: auto;
+	z-index: 2;
+}
+header1 {
+    margin: auto;
+    align-content: center;
+    z-index: 2;
+}
+main {
+	position: relative;
+	margin: auto;
+	z-index: 2;
+}
+@media (max-width:1200px){
+	.container{
+		max-width:970px;
+	}
+}
+@media (max-width:992px){
+	.container{
+		max-width:750px;
+	}
+}
+@media (max-width:767px){
+	.container{
+		max-width: none;
+	}
+}
+
+.backgr {
+    position: absolute;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5vh;
+	z-index: 1;
+    opacity: 30%;
+}
+
+
+
